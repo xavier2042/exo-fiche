@@ -1,0 +1,45 @@
+header {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+  text-align:center;
+}
+
+.grey-bg{
+  background-color:#f7f7f7;
+  }
+
+body {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #777777;
+  font-size: 14px;
+  line-height: 1.75;
+  margin: 0 0 10px;
+}
+
+h3 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: black;
+}
+h4 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  color: black;
+
+}
+footer{
+  color:black;
+}
+.git-hub{
+  color: #71b43d;
+  outline: none;
+  text-decoration: none;
+}
+table
+{
+    margin: auto;
+}
