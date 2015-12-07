@@ -24,6 +24,7 @@ nav {
 }
 .menu a {
   text-decoration: none;
+  color: white;
 }
 .menu a:visited{
   color: white;
