@@ -1,21 +1,52 @@
-header {
+span {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 18px;
-  color: black;
-  text-align:center;
+  color:#71b43d;
+  float:left;
+  display: inline;
 }
-
+nav {
+  display:block;
+  margin-left: 9em;
+  width: 960px;
+}
+.menu {
+  list-style-type: none;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+}
+.menu li {
+  display: inline;
+  margin-left: 40px;
+  color: white;
+}
+.menu a {
+  text-decoration: none;
+}
+.menu a:visited{
+  color: white;
+}
+.menu a:hover {
+  color: #71b43d;
+}
 .grey-bg{
   background-color:#f7f7f7;
   }
+.git-hub{
+  color: #71b43d;
+  outline: none;
+  text-decoration: none;
+}
 
 body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #777777;
-  font-size: 14px;
-  line-height: 1.75;
-  margin: 0 0 10px;
+  margin: 0;
+
+}
+section, footer{
+  margin: 0 0 0 10em;
 }
 
 h3 {
@@ -31,15 +62,12 @@ h4 {
   color: black;
 
 }
-footer{
-  color:black;
+header {
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  padding: 10px;
+  background-color:#222222;
+  /*text-align: center;*/
 }
-.git-hub{
-  color: #71b43d;
-  outline: none;
-  text-decoration: none;
-}
-table
-{
-    margin: auto;
+footer {
+  text-align: center;
 }
