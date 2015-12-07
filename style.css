@@ -43,6 +43,7 @@ nav {
 body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  font-size: 0.9em;
 
 }
 section, footer{
@@ -70,4 +71,20 @@ header {
 }
 footer {
   text-align: center;
+}
+.trombi {
+  list-style-type: none;
+}
+.trombi img{
+  display: block;
+}
+.trombi li {
+  float: left;
+  text-align: center;
+  margin: 8px;
+  width: 150px;
+  height: 200px;
+}
+.strombi {
+  width: 960px;
 }
