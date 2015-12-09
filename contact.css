@@ -1,0 +1,34 @@
+h1{
+  text-align: center;
+  font-family: lobster;
+  font-size: 3em;
+}
+form {
+    margin: auto;/* Pour le centrer dans la page */
+    width: 400px;
+    padding: 1em;/* Pour voir les limites du formulaire */
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    font-family: lobster;
+}
+form div + div {
+    margin-top: 1em;
+}
+label, input{
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+}
+textarea {
+    vertical-align: top;/* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    height: 5em;/* Pour donner assez d'espace pour entrer du texte */
+    resize: vertical;/* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement*/
+}
+button, p {
+    text-align:center;
+    margin: auto;
+    border-radius: 2px;
+}
+.color{
+  width: 20px;
+}

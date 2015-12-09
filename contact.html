@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Xavier Soulier | Codi n Camp</title>
+    <link rel="stylesheet" type="text/css" href="contact.css">
+    <link href='https://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <header>
+    <nav>
+      <span>Soulier Xavier | Còdi n Camp Promo1</span>
+      <ul class="menu">
+        <li><a href="xsoulier.html#Moi">Moi</a></li>
+        <li><a href="xsoulier.html#Bio">Bio</a></li>
+        <li><a href="xsoulier.html#Objectifs">Objectifs</a></li>
+        <li><a href="xsoulier.html#Projets">Projets</a></li>
+        <li><a href="xsoulier.html#Loisirs">Loisirs</a></li>
+        <li><a href="contact.html">contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <body>
+    <h1>Contact</h1>
+    <form action="contact-traitement.html" method="post">
+    <div>
+      <label for="nom">Nom :</label>
+      <input type="text" name="user_nom" id="nom"/>
+    </div>
+    <div>
+      <label for="Sexe"> Sexe :</label></br>
+      <input type="radio" name="user_genre" value="homme"> Homme<br>
+      <input type="radio" name="user_genre" value="femme"> Femme<br>
+    </div>
+    <div>
+      <label for="Date"> Date de Naissance : </label>
+      <input type="date" name="user_date">
+    </div>
+    <div>
+      <label for="Couleur">Couleur Préférée :</label>
+      <input class="color" type="color" name="user_color">
+    </div>
+    <div>
+      <label for="Parfum">Parfum(s) Préféré(s) :</label><br>
+      <input type="checkbox" name="user_parfum" value="Vanille"> Vanille<br>
+      <input type="checkbox" name="user_parfun" value="Chocolat"> Chocolat<br>
+      <input type="checkbox" name="user_parfum" value="Fraise"> Fraise<br>
+      <input type="checkbox" name="user_parfum" value="Pistache"> Pistache<br>
+    </div>
+    <div>
+      <label for="courriel">Courriel :</label>
+      <input type="email" name="user_mail" id="courriel"/>
+    </div>
+    <div>
+      <label for="message">Message :</label>
+      <textarea name="user_message" id="message"></textarea>
+    </div>
+    <div>
+      <p><button type="submit">Envoyer votre message</button></p>
+    </form>
+  </body>
+</html>

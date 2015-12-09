@@ -33,10 +33,13 @@ nav {
   font-weight: 700;
   font-size: 18px;
 }
-.menu li {
+.menu li{
   display: inline;
   margin-left: 40px;
   color: white;
+}
+.left li, .right li{
+  list-style-type: none;
 }
 .menu a {
   text-decoration: none;
@@ -51,7 +54,7 @@ nav {
 .grey-bg{
   background-color:#f7f7f7;
   }
-.git-hub{
+.stgit-hub{
   color: #71b43d;
   outline: none;
   text-decoration: none;
@@ -61,7 +64,6 @@ body {
   font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   font-size: 0.9em;
-
 }
 h3 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
