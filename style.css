@@ -1,10 +1,10 @@
 span {
-  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  color:#71b43d;
   float:left;
-  display: inline;
+  font-family: 'Kaushan Script', Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  font-style: oblique;
+  color:#71b43d;
 }
 nav {
   display:block;
@@ -35,7 +35,7 @@ nav {
 }
 .menu li{
   display: inline;
-  margin-left: 40px;
+  margin-left: 30px;
   color: white;
 }
 .left li, .right li{
@@ -54,14 +54,15 @@ nav {
 .grey-bg{
   background-color:#f7f7f7;
   }
-.stgit-hub{
+.git-hub{
   color: #71b43d;
   outline: none;
   text-decoration: none;
 }
-
+i{
+  font-size: 40px;
+}
 body {
-  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   font-size: 0.9em;
 }
@@ -79,7 +80,6 @@ h4 {
   color: black;
 }
 header {
-  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
   padding: 10px;
   background-color:#222222;
 }
@@ -106,4 +106,60 @@ footer {
 .zoom{
   zoom:150%;
   -moz-transform: scale(2);
+}
+form {
+    margin: auto;/* Pour le centrer dans la page */
+    width: 400px;
+    padding: 1em;/* Pour voir les limites du formulaire */
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    font-family: lobster;
+}
+.form label, input{
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+}
+textarea {
+    vertical-align: top;/* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    height: 5em;/* Pour donner assez d'espace pour entrer du texte */
+    resize: vertical;/* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement*/
+}
+button, p {
+    text-align:center;
+    margin: auto;
+    border-radius: 2px;
+}
+.color{
+  width: 30px;
+}
+h1{
+  text-align: center;
+  font-family: lobster;
+  font-size: 3em;
+}
+form {
+    margin: auto;/* Pour le centrer dans la page */
+    width: 400px;
+    padding: 1em;/* Pour voir les limites du formulaire */
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    font-family: lobster;
+}
+label, input{
+    width: 160px;
+    text-align: center;
+}
+textarea {
+    vertical-align: top;/* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    height: 5em;/* Pour donner assez d'espace pour entrer du texte */
+    resize: vertical;/* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement*/
+}
+button, p {
+    text-align:center;
+    margin: auto;
+    border-radius: 2px;
+}
+.color{
+  width: 20px;
 }
